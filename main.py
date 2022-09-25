@@ -113,7 +113,7 @@ def train(args, io):
     labels = np.unique(label_df['label'])
     label_num = len(labels)
     
-    if LOAD_SERIAL_NUMBER in set([0,1,2,3,4]):
+    if type(LOAD_SERIAL_NUMBER)!=bool or LOAD_SERIAL_NUMBER==None:
         save_path = f'./result/train/{LOAD_SERIAL_NUMBER}'
         
     else:
