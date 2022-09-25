@@ -13,7 +13,7 @@ data 폴더에 아래 사이트에서 다운받은 train, test, submission 전�
 
 ### Requirements
 * python : 3.8 
-  * conda 
+  * conda 가상환경에서 실험했었습니다.
 * 위의 github 코드에서는 python 3.7 이상의 버젼을 요구합니다.
 
 ```shell script
