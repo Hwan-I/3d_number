@@ -1,4 +1,4 @@
-## train_config.yaml
+# train_config.yaml
 config 폴더의 train_config.yaml 부분입니다.
 
 #### data
@@ -61,7 +61,7 @@ config 폴더의 train_config.yaml 부분입니다.
 * random_seed : random seed로 사용하는 번호입니다.
 * bench_mark : torch에서 bench_mark 설정 option 값입니다.
 
-## pred_config.yaml
+# pred_config.yaml
 #### path
 * train_serial : int
   * 학습할 때 생성된 serial_number를 넣습니다.
