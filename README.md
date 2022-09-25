@@ -12,7 +12,8 @@ data 폴더에 아래 사이트에서 다운받은 train, test, submission 전�
 * https://dacon.io/competitions/official/235951/data
 
 ### Requirements
-python : 3.8
+* python : 3.8 
+  * conda 
 * 위의 github 코드에서는 python 3.7 이상의 버젼을 요구합니다.
 
 ```shell script
