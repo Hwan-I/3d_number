@@ -1,6 +1,6 @@
 data:
-  train_make_select: False
-  val_make_select: False
+  train_make_select: True
+  val_make_select: True
   train_normal_probability: 0.3
   val_normal_probability: 0.1
   num_points: 2048
