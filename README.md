@@ -26,7 +26,7 @@ pip install pointnet2_ops_lib/.
 python main.py --execute=train
 
 ## test 명령어
-python main.py --execute=test
+python main.py --execute=predict
 
 
 
