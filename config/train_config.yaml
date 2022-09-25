@@ -1,0 +1,49 @@
+data:
+  train_make_select: False
+  val_make_select: False
+  train_normal_probability: 0.3
+  val_normal_probability: 0.1
+  num_points: 2048
+  num_workers: 8
+  sampling_method: random   # normal, random
+  model_sampling: 
+    str: True # True, False
+    translate: True
+    dropout: True
+    shuffle: True
+  voxelize:
+    voxel_downsampling: False # True, False
+    voxel_size: 0.02
+  outlier:
+    outlier_remover: True
+    nb_points: 16    # 16
+    radius: 0.05     # 0.05
+  weight_method: list    # list, random
+
+model:
+  cv: 5
+  cv_num: 0
+  dropout: 0.5
+  load_serial_number: 
+
+train:
+  optimizer: adam
+  scheduler: cosine_annealing_lr # reduce_lr_onplateau, cosine_annealing_lr
+  eta_min: 0.0000001
+  patience: 10
+  factor: 0.1
+  threshold: 0.0001
+  min_lr: 0.0000001
+  eps: 0.00000001
+  early_stopping: 50
+  lr: 0.001
+  epoch: 500
+  batch_size: 32
+  weight_decay: 0.0001     # 0.0005
+  best_metric: auc
+  momentum: 0.9
+
+other:
+  random_seed: 42
+  bench_mark: True
+
