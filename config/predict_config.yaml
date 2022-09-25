@@ -1,5 +1,4 @@
 path:
-  base_data_dir: /home/molra/workspace/3d_number/data
   train_serial: 20220924164251
   pred_cv: 0
 
