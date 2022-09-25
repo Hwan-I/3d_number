@@ -1,8 +1,15 @@
+## 아래 링크의 대회에서 썼던 코드입니다.
+* https://dacon.io/competitions/official/235951/overview/description
+
 ## 아래 페이지의 방법론을 사용해서 만들었습니다.
 * https://github.com/Strawberry-Eat-Mango/PCT_Pytorch
 * Paper link: https://arxiv.org/pdf/2012.09688.pdf
 
 ## Setting : 아래 Requirements를 참고하시기 바랍니다.
+
+### data
+data 폴더에 아래 사이트에서 다운받은 train, test, submission 전부를 넣습니다.
+* https://dacon.io/competitions/official/235951/data
 
 ### Requirements
 python : 3.8
