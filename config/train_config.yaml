@@ -24,7 +24,7 @@ model:
   cv: 5
   cv_num: 0
   dropout: 0.5
-  load_serial_number: 
+  load_serial_number: False
 
 train:
   optimizer: adam
